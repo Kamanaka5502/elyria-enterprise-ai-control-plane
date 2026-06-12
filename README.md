@@ -18,8 +18,24 @@
 ![RAG](https://img.shields.io/badge/RAG-Grounded%20Readiness-5f8fa3?style=flat-square)
 ![Data](https://img.shields.io/badge/Data-Scope%20%2B%20Sensitivity-c9a66b?style=flat-square)
 ![Decision](https://img.shields.io/badge/Decision-ADMIT%20%7C%20HOLD%20%7C%20REFUSE%20%7C%20REVALIDATE-1f4f5a?style=flat-square)
+![Executive Ready](https://img.shields.io/badge/Executive--Ready-Board%20Readable-c9a66b?style=flat-square)
+![Delivery Ready](https://img.shields.io/badge/Delivery--Ready-Architecture%20Assets-5f8fa3?style=flat-square)
 
 </div>
+
+---
+
+## Repository Navigation
+
+| Area | Start Here | Outcome |
+|---|---|---|
+| Executive overview | `README.md` | Understand the business problem, value, and control-plane model. |
+| Visual identity | `docs/design-language.md` and `docs/visual-index.md` | See the palette, badge logic, decision signals, and repository experience path. |
+| Enterprise architecture | `docs/reference-architecture.md` | Review the full governance architecture from intake through revalidation. |
+| Operating model | `docs/enterprise-operating-model.md` | Assign roles, decision rights, governance cadence, and cross-functional ownership. |
+| Pilot readiness | `sandbox/deployment-playground.md` and `docs/pilot-corridor-plan.md` | Run a controlled pilot-readiness review. |
+| Decision framework | `docs/ai-governance-decision-framework.md` | Resolve ADMIT / HOLD / REFUSE / REVALIDATE. |
+| Delivery evidence | `reports/sample-governance-readiness-report.md` | See the sample output an enterprise team could receive. |
 
 ---
 
@@ -110,6 +126,18 @@ REVALIDATE Conditions changed; prior approval cannot be relied on.
 | Architecture decisions | What was decided, why, by whom, and under what assumptions? | `docs/architecture-decision-record-template.md` |
 | Pilot sandbox | How is an AI use case evaluated before production advancement? | `sandbox/deployment-playground.md` |
 | Stakeholder credibility | Why is this serious architecture work? | `docs/credibility-map.md` |
+| Visual language | How should the repo read and look to enterprise reviewers? | `docs/design-language.md` and `docs/visual-index.md` |
+
+---
+
+## Decision Signal Palette
+
+| Signal | Color Role | Meaning |
+|---|---|---|
+| **ADMIT** | Teal / green | Movement may advance under current controls. |
+| **HOLD** | Warm gold | Evidence or control coverage is incomplete. |
+| **REFUSE** | Deep graphite | Critical boundary is missing; movement cannot advance. |
+| **REVALIDATE** | Muted steel | Conditions changed; prior approval must be reviewed. |
 
 ---
 
@@ -127,6 +155,7 @@ This repository is structured around artifacts expected in serious enterprise ar
 - pilot sandbox scenarios
 - public-safe license and notice boundary
 - credibility map for stakeholder review
+- design language and visual index
 
 ---
 
@@ -189,10 +218,18 @@ Revalidation
 | `docs/architecture-decision-record-template.md` | ADR template for governed AI architecture decisions. |
 | `docs/control-matrix.md` | Control matrix across identity, data, privacy, security, RAG, agents, and observability. |
 | `docs/credibility-map.md` | Stakeholder-facing credibility and coverage map. |
+| `docs/design-language.md` | Brand palette, voice, badge system, and public-facing style rules. |
+| `docs/visual-index.md` | Executive visual scan path and decision signal system. |
+| `docs/deployment-readiness-checklist.md` | Production movement readiness checklist. |
+| `docs/demo-script.md` | 10-minute executive or hiring-panel walkthrough. |
+| `docs/enterprise-operating-model.md` | Roles, cadences, decision rights, and operating model. |
+| `docs/pilot-corridor-plan.md` | Controlled path from idea to pilot to production candidate. |
 | `sandbox/deployment-playground.md` | Pilot-ready sandbox deployment model. |
 | `sandbox/sample-scenarios.md` | Demo scenarios for ADMIT / HOLD / REFUSE / REVALIDATE. |
+| `reports/sample-governance-readiness-report.md` | Example report output for a governed AI review. |
 | `examples/customer-support-copilot.json` | Example governed AI use case. |
 | `examples/agentic-workflow-risk.json` | Example high-risk agentic workflow. |
+| `examples/revalidation-trigger.json` | Example changed-condition revalidation case. |
 | `tests/test_control_plane_logic.md` | Public-safe decision test logic. |
 | `LICENSE` | MIT license. |
 | `NOTICE.md` | Public-safe boundary and attribution notice. |
@@ -214,6 +251,7 @@ This repository demonstrates how to convert fragmented enterprise AI adoption in
 - sandbox deployment model
 - testable governance outcomes
 - reusable delivery and pursuit pattern
+- visual system and stakeholder-facing narrative
 
 ---
 
