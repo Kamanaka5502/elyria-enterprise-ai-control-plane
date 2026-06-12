@@ -1,0 +1,18 @@
+{
+  "use_case": "Agentic Workflow With External Tool Action",
+  "description": "AI agent can retrieve account data and trigger operational workflow updates.",
+  "stage": "production_candidate",
+  "data_classification": "confidential",
+  "sensitive_data": true,
+  "business_owner": "Operations",
+  "technical_owner": "Automation Team",
+  "identity_controls": true,
+  "data_controls": false,
+  "rag_system": true,
+  "grounding_evaluation": false,
+  "agent_tool_use": true,
+  "action_boundary": false,
+  "human_approval_required": false,
+  "observability": true,
+  "revalidation_required": false
+}
