@@ -9,7 +9,6 @@
 ![Azure Alignment](https://img.shields.io/badge/Azure%20Alignment-Purview%20%7C%20Entra%20%7C%20OpenAI-5f8fa3?style=for-the-badge)
 ![Pilot Ready](https://img.shields.io/badge/Pilot--Ready-Sandbox%20Deployment-c9a66b?style=for-the-badge)
 
-### ∂A · Φ · Ω · Ξ · ΛR · ΔD
 ### **Govern AI movement before production consequence.**
 
 ![Agents](https://img.shields.io/badge/Agents-Tool%20Boundaries-2f6f73?style=flat-square)
