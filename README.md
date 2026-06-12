@@ -23,6 +23,37 @@
 
 ---
 
+## What This Solves
+
+Enterprises are adopting AI faster than their governance, security, privacy, data, and architecture functions can consistently control it.
+
+AI programs often begin as pilots, copilots, RAG assistants, automation experiments, agentic workflows, or AI-assisted development patterns. The risk appears when those systems begin influencing real decisions, retrieving sensitive data, calling tools, changing workflows, generating customer-facing output, or moving toward production before the organization has resolved ownership, authority, data scope, evaluation, observability, and revalidation.
+
+The Elyria Enterprise AI Control Plane provides a structured operating model for that gap.
+
+It helps an enterprise decide whether an AI system, workflow, agent, model integration, RAG pattern, Copilot extension, or automation path should advance, pause, stop, or return for review before it creates operational consequence.
+
+---
+
+## Why Enterprises Benefit
+
+This repository turns responsible AI from policy language into an architecture and delivery pattern.
+
+Enterprise teams gain:
+
+- a common decision model for AI movement
+- a repeatable intake and review structure
+- clearer ownership across business, technical, security, privacy, data, and AI teams
+- stronger production-readiness discipline
+- reusable architecture artifacts for client delivery and internal governance
+- a sandbox model for pilot evaluation before production escalation
+- a revalidation model for changed data, model, prompt, tool, policy, or environment conditions
+- executive-ready language for CIO, CISO, CTO, data, AI, privacy, and risk leaders
+
+The business value is practical: faster AI adoption with stronger control over what is allowed to move, what must pause, what must be refused, and what must be revalidated.
+
+---
+
 ## Executive Thesis
 
 Enterprise AI does not fail only because a model gives a bad answer.
@@ -62,6 +93,23 @@ HOLD       Required evidence or control coverage is incomplete.
 REFUSE     Movement is blocked because protected consequence could bind without adequate control.
 REVALIDATE Conditions changed; prior approval cannot be relied on.
 ```
+
+---
+
+## End-to-End Coverage
+
+| Layer | Enterprise Question | Repository Asset |
+|---|---|---|
+| Executive discovery | What AI capability is being pursued and why? | `docs/executive-workshop.md` |
+| Use-case classification | What kind of AI movement is being proposed? | `docs/ai-governance-decision-framework.md` |
+| Data scope | What data is used, retrieved, generated, stored, or exposed? | `docs/control-matrix.md` |
+| Identity and authority | Who or what is allowed to access, approve, deploy, or trigger action? | `docs/reference-architecture.md` |
+| Agentic systems | What tools can be called and what action can bind? | `docs/agentic-systems-control-model.md` |
+| RAG readiness | Are retrieval sources approved, grounded, evaluated, and observable? | `docs/rag-production-readiness.md` |
+| Azure alignment | How does the model map to Azure AI, Purview, Entra, OpenAI, AI Search, and observability? | `docs/azure-alignment.md` |
+| Architecture decisions | What was decided, why, by whom, and under what assumptions? | `docs/architecture-decision-record-template.md` |
+| Pilot sandbox | How is an AI use case evaluated before production advancement? | `sandbox/deployment-playground.md` |
+| Stakeholder credibility | Why is this serious architecture work? | `docs/credibility-map.md` |
 
 ---
 
