@@ -4,6 +4,7 @@
 
 ## Responsible AI · Agentic Governance · Azure Reference Architecture · Production Movement Control
 
+![License](https://img.shields.io/badge/license-MIT-1f4f5a?style=for-the-badge)
 ![Enterprise AI](https://img.shields.io/badge/Enterprise%20AI-Control%20Plane-1f4f5a?style=for-the-badge)
 ![Responsible AI](https://img.shields.io/badge/Responsible%20AI-Governed%20Movement-2f6f73?style=for-the-badge)
 ![Azure Alignment](https://img.shields.io/badge/Azure%20Alignment-Purview%20%7C%20Entra%20%7C%20OpenAI-5f8fa3?style=for-the-badge)
@@ -59,6 +60,23 @@ HOLD       Required evidence or control coverage is incomplete.
 REFUSE     Movement is blocked because protected consequence could bind without adequate control.
 REVALIDATE Conditions changed; prior approval cannot be relied on.
 ```
+
+---
+
+## Credibility Layer
+
+This repository is structured around artifacts expected in serious enterprise architecture work:
+
+- reference architecture
+- executive workshop model
+- control matrix
+- architecture decision record template
+- Azure alignment layer
+- agentic systems control model
+- RAG production-readiness model
+- pilot sandbox scenarios
+- public-safe license and notice boundary
+- credibility map for stakeholder review
 
 ---
 
@@ -120,11 +138,14 @@ Revalidation
 | `docs/executive-workshop.md` | 90-minute CIO / CISO / Data / AI leader discovery workshop. |
 | `docs/architecture-decision-record-template.md` | ADR template for governed AI architecture decisions. |
 | `docs/control-matrix.md` | Control matrix across identity, data, privacy, security, RAG, agents, and observability. |
+| `docs/credibility-map.md` | Stakeholder-facing credibility and coverage map. |
 | `sandbox/deployment-playground.md` | Pilot-ready sandbox deployment model. |
 | `sandbox/sample-scenarios.md` | Demo scenarios for ADMIT / HOLD / REFUSE / REVALIDATE. |
 | `examples/customer-support-copilot.json` | Example governed AI use case. |
 | `examples/agentic-workflow-risk.json` | Example high-risk agentic workflow. |
 | `tests/test_control_plane_logic.md` | Public-safe decision test logic. |
+| `LICENSE` | MIT license. |
+| `NOTICE.md` | Public-safe boundary and attribution notice. |
 
 ---
 
