@@ -4,6 +4,8 @@
 
 ## Responsible AI · Agentic Governance · Azure Reference Architecture · Production Movement Control
 
+<img src="4889203037646548451.jpg" alt="Elyria Enterprise AI Control Plane" width="100%">
+
 ![License](https://img.shields.io/badge/license-MIT-1f4f5a?style=for-the-badge)
 ![Enterprise AI](https://img.shields.io/badge/Enterprise%20AI-Control%20Plane-1f4f5a?style=for-the-badge)
 ![Responsible AI](https://img.shields.io/badge/Responsible%20AI-Governed%20Movement-2f6f73?style=for-the-badge)
