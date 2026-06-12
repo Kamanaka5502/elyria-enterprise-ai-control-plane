@@ -1,0 +1,18 @@
+{
+  "use_case": "Previously Approved Copilot With Changed Data Scope",
+  "description": "A previously approved internal copilot is being expanded to retrieve a new confidential data source.",
+  "stage": "production",
+  "data_classification": "confidential",
+  "sensitive_data": true,
+  "business_owner": "Customer Operations",
+  "technical_owner": "AI Platform Team",
+  "identity_controls": true,
+  "data_controls": true,
+  "rag_system": true,
+  "grounding_evaluation": true,
+  "agent_tool_use": false,
+  "action_boundary": true,
+  "human_approval_required": true,
+  "observability": true,
+  "revalidation_required": true
+}
