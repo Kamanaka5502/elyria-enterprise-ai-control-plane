@@ -1,0 +1,18 @@
+{
+  "use_case": "Customer Support Copilot",
+  "description": "Internal support assistant retrieves approved knowledge-base content and drafts responses for human review.",
+  "stage": "pilot",
+  "data_classification": "internal",
+  "sensitive_data": false,
+  "business_owner": "Customer Operations",
+  "technical_owner": "AI Platform Team",
+  "identity_controls": true,
+  "data_controls": true,
+  "rag_system": true,
+  "grounding_evaluation": true,
+  "agent_tool_use": false,
+  "action_boundary": true,
+  "human_approval_required": true,
+  "observability": true,
+  "revalidation_required": false
+}
