@@ -1,0 +1,2 @@
+# Public-safe repository scaffold.
+# No runtime dependencies are required for the current markdown/json sandbox.
